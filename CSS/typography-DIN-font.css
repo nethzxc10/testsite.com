@@ -1,0 +1,89 @@
+/*Staring of Gotham font Integration*/
+
+@font-face {
+    /* font-family: 'Gotham'; */
+    font-family: FF DIN Light;
+    src: url('../fonts/DINW05-Light.woff2') format('woff2');
+    src: url('../fonts/DINW05-Light.woff') format('woff');
+    /* src: url('../fonts/ReBranding/DINW05-Light.woff'); */
+    /* src: url('../fonts/ReBranding/DINW05-Light.woff?#iefix') format('embedded-opentype'), */
+    /* url('../fonts/ReBranding/DINW05-Light.woff2') format('woff2'), */
+    /* url('../fonts/ReBranding/DINW05-Light.woff') format('woff'), */
+    /* url('../fonts/ReBranding/DINW05-Light.woff#DINW05-Light') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* font-family: 'Gotham-Italic'; */
+    font-family: FF DIN Round Light;
+    src: url('../fonts/DINRoundW05-Light.woff2') format('woff2'), url('../fonts/DINRoundW05-Light.woff') format('woff');
+    /* src: url('../fonts/ReBranding/DINRoundW05-Light.woff'); */
+    /* src: url('../fonts/ReBranding/DINRoundW05-Light.woff?#iefix') format('embedded-opentype'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Light.woff2') format('woff2'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Light.woff') format('woff'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Light.woff#DINRoundW05-Light') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* font-family: 'Gotham-Black'; */
+    font-family: FF DIN Bold;
+    src: url('../fonts/DINW05-Bold.woff2') format('woff2'), url('../fonts/DINW05-Bold.woff') format('woff');
+    /* src: url('../fonts/ReBranding/DINW05-Bold.woff'); */
+    /* src: url('../fonts/ReBranding/DINW05-Bold.woff?#iefix') format('embedded-opentype'), */
+    /* url('../fonts/ReBranding/DINW05-Bold.woff2') format('woff2'), */
+    /* url('../fonts/ReBranding/DINW05-Bold.woff') format('woff'), */
+    /* url('../fonts/ReBranding/DINW05-Bold.woff#DINW05-Bold') format('woff'); */
+    /* font-weight: 900; */
+    /* font-style: normal; */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* font-family: 'Gotham-Black'; */
+    font-family: FF DIN Round Bold;
+    src: url('../fonts/DINRoundW05-Bold.woff2') format('woff2');
+    src: url('../fonts/DINRoundW05-Bold.woff') format('woff');
+    /* src: url('../fonts/ReBranding/DINRoundW05-Bold.woff'); */
+    /* src: url('../fonts/ReBranding/DINRoundW05-Bold.woff?#iefix') format('embedded-opentype'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Bold.woff2') format('woff2'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Bold.woff') format('woff'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Bold.woff#DINRoundW05-Bold') format('woff'); */
+    /* font-weight: 900; */
+    /* font-style: normal; */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* font-family: 'Gotham-BlackItalic'; */
+    font-family: FF DIN Regular;
+    src: url('../fonts/DINW05-Regular.woff2') format('woff2'), url('../fonts/DINW05-Regular.woff') format('woff');
+    /* src: url('../fonts/ReBranding/DINW05-Regular.woff'); */
+    /* src: url('../fonts/ReBranding/DINW05-Regular.woff?#iefix') format('embedded-opentype'), */
+    /* url('../fonts/ReBranding/DINW05-Regular.woff2') format('woff2'), */
+    /* url('../fonts/ReBranding/DINW05-Regular.woff') format('woff'), */
+    /* url('../fonts/ReBranding/DINW05-Regular.woff#DINW05-Regular') format('woff'); */
+    /* font-weight: 500; */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* font-family: 'Gotham-Bold'; */
+    font-family: FF DIN Round Regular;
+    src: url('../fonts/DINRoundW05-Regular.woff2') format('woff2'), url('../fonts/DINRoundW05-Regular.woff') format('woff');
+    /* src: url('../fonts/ReBranding/DINRoundW05-Regular.woff'); */
+    /* src: url('../fonts/ReBranding/DINRoundW05-Regular.woff?#iefix') format('embedded-opentype'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Regular.woff2') format('woff2'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Regular.woff') format('woff'), */
+    /* url('../fonts/ReBranding/DINRoundW05-Regular.woff#DINRoundW05-Regular') format('woff'); */
+    /* font-weight: bold; */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* End of Gotham font integration*/

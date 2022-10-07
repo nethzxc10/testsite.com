@@ -1,0 +1,25 @@
+<div class="m1eshop-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="m1eshopdialogmodal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="component-heading theme-dark1" ng-if="errorModel.Heading">
+                    <p class="font-heading1">{{errorModel.Heading}}</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body-conatiner col-xs-12 col-sm-10 col-sm-offset-1">
+                    <div class="error-image-wrapper" ng-if="errorModel.Image">
+                        <img ng-src="{{errorModel.Image}}" alt="errorimage" class="error-image img-responsive" />
+                    </div>
+                    <p ng-bind-html="errorModel.Message"></p>
+                    <div class="modal-btn-container col-xs-12 padding-false" ng-if="errorModel.popup">
+                        <div class="tab theme-light text-theme-black col-xs-6" ng-repeat="action in errorModel.Action track by $index">
+                            <a role="button" class="btn btn-default btn-block animated-button button-animated" ng-click="postuserConfirmation({url:action.PostUrl, urlstring:action.Data, action:action.Action ,isRedirect:action.isRedirect});" data-dismiss="modal" aria-hidden="true"><span>{{action.Action}}</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

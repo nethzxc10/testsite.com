@@ -1,0 +1,49 @@
+.m1cp.scrolling-tab .slick-prev:before {
+    font-family: 'Glyphicons Halflings';
+    content: '\e079';
+}
+
+.m1cp.scrolling-tab .slick-next:before {
+    font-family: 'Glyphicons Halflings';
+    content: '\e080';
+}
+
+@media (max-width:767.8px) {
+    footer.footer.m1 .panel-heading .accordion-toggle .panel-title:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e113";
+    }
+}
+
+@media (min-width:992px) {
+    .topbanner.topbanner-variant2 .topbanner-description .topbannervar2-event .font-bodybb14 span:first-child::after {
+        font-family: 'Glyphicons Halflings';
+        content: "\00a0";
+    }
+}
+
+.sub-list>.panel-group .panel-heading .filterPlanLeftArrow.collapsed:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\25B6";
+}
+
+.sub-list .panel-heading .accordion-toggle:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\25bc";
+}
+
+.choices-info-component ul li:after {
+    font-family: 'Glyphicons Halflings';
+    content: " \2022";
+}
+
+@media (max-width:768px) {
+    .accordion-toggle.expandCollapse-stickybar[aria-expanded="false"]:before {
+        font-family: 'Glyphicons Halflings';
+        content: "\e259";
+    }
+    .accordion-toggle.expandCollapse-stickybar[aria-expanded="true"]:before {
+        font-family: 'Glyphicons Halflings';
+        content: "\e260";
+    }
+}

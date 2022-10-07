@@ -1,0 +1,15 @@
+@media (min-width:992px) {
+    .map-main-container {
+        float: right;
+        margin-left: 33.33333333%;
+    }
+    .m1cp.map-detail-main-container,
+    .m1cp .map-container {
+        position: fixed;
+        left: 0;
+        top: 50px;
+    }
+    .map-component-container {
+        transform: translate(0);
+    }
+}
